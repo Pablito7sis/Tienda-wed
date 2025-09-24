@@ -13,7 +13,7 @@ export default function LoginPage() {
     e.preventDefault();
 
     // Validación simple
-    if (correo === "admin@tienda.comm" && password === "123456") {
+    if (correo === "admin@tienda.commm" && password === "123456") {
       localStorage.setItem("usuario", correo);
       router.push("/"); // redirige al inicio
     } else {
